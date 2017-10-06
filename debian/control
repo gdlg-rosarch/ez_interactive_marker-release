@@ -1,0 +1,12 @@
+Source: ros-kinetic-ez-interactive-marker
+Section: misc
+Priority: extra
+Maintainer: neka-nat <nekanat.stock@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python-nose, ros-kinetic-catkin, ros-kinetic-interactive-markers, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-rospy-message-converter, ros-kinetic-rostest, ros-kinetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ez-interactive-marker
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roslib, ros-kinetic-rospy, ros-kinetic-rospy-message-converter, ros-kinetic-std-msgs, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Description: Easily create interactive markers from yaml files
